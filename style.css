@@ -1,0 +1,201 @@
+* { 
+  border: 1px solid transparent;
+  border-left: 0;
+  border-right: 0;
+  box-sizing: content-box;
+}
+
+body {
+    border-top: 0;
+    margin: 0 auto;
+    color: black;
+    letter-spacing: 0.03em;
+    font-family: "Be Vietnam Pro";
+}
+
+a {
+  color: black
+}
+
+.nav {
+  margin: 0 30px 0 30px;
+  position: fixed;
+  text-align: center; 
+  width: 100%;
+  font-size: 12px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+  }
+
+.nav li {
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0 5px;
+  width: 80px;
+  height: 25px;
+  font-size: 10px;  
+  display: inline-flex;
+  gap: 20px;
+  justify-content: center;
+  line-height: 23px;
+}
+
+.assistance {
+  margin-right: 30px;
+}
+
+.nav li:hover {
+  position: relative;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(69, 70, 71, 0.267);
+}
+
+.nav img {
+  height: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Be Vietnam Pro";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.page {
+  height: 100vh;
+  text-align: center;
+}
+  
+h1 {
+  font-family: "Be Vietnam Pro";
+  font-weight: bold;
+  display: block;
+  margin-top: 120px;
+}
+
+h2 {
+  font-family: "Be Vietnam Pro";
+  font-weight: 300;
+}
+
+.perso {
+  position: relative;
+  top: 300px;
+}
+
+.perso li {
+  border-radius: 20px;
+  width: 200px;
+  height: 35px;
+  position: relative;
+  top:0;
+  font-size: 10px;  
+  display: inline-flex;
+  justify-content: center;
+  text-transform: uppercase;
+  backdrop-filter: 40px;
+}
+
+li.clair {
+  background: rgba(221, 217, 217, 0.85);
+}
+
+li.sombre {
+  background: rgba(29, 27, 27, 0.85);
+  display: inline-flex;
+  align-items: center;
+}
+
+li.sombre a {
+  color: white;
+}
+
+.perso a {
+  color: black;
+  font-family: "Be Vietnam Pro";
+  font-size: 12px;
+  font-weight: 300;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.ModèleY {
+  background-image: url("images/modèleY.jpg");
+  background-size: cover;
+}
+
+.ModèleY p a {
+  position: relative;
+  top: 320px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.Modèle3 {
+  background-image: url("images/modèle3.jpg");
+  background-size: cover;
+  font-size: 12px;
+}
+
+.Modèle3 p {
+  position: relative;
+  top: -50px;
+}
+
+.Modèle3 span {
+  position: relative;
+  top: 300px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.ModèleX {
+  background-image: url("images/modèleX.jpg");
+  background-size: cover;
+}
+
+.ModèleS {
+  background-image: url("images/modèleS.jpg");
+  background-size: cover;
+}
+
+.Recharge {
+  background-image: url("images/accessoir.png");
+  background-size: cover;
+}
+
+.Powerwall {
+  background-image: url("images/powerwall.jpg");
+  background-size: cover;
+}
+
+footer {
+  text-align: center; 
+  width: 100%;
+  font-size: 12px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer  li {
+  width: 100px;
+  height: 25px;
+  font-size: 10px;  
+  display: inline-flex;
+  justify-content: center;
+  line-height: 23px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(94, 96, 100);
+}
